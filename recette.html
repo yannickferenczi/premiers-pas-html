@@ -3,97 +3,7 @@
     <head>
         <title>Recette de quiche</title>
         <meta charset="UTF-8">
-        <style>
-            .center {
-                text-align: center;
-            }
-
-            body {
-                background-color: #8BA1BB;
-                font-family: Arial;
-            }
-
-            div.categorie {
-                padding-top: 30px;
-                margin-bottom: -20px;
-            }
-
-            p.categorie {
-                display: inline-block;
-                background-color: black;
-                color: white;
-                padding: 8px 18px;
-                margin-bottom: 0;
-                font-size: 25px;
-                font-weight: bold;
-            }
-
-
-            div.contenu {
-                background-color: white;
-                margin: 0px 15% 80px 15%;
-                padding: 30px 5%;
-                min-width: 350px;
-            }
-
-            h1 {
-                font-size: 45px;
-            }
-
-            div.separateur {
-                height: 2px;
-                background-color: black;
-                width: 130px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            /* Mon commentaire CSS */
-
-            div.description {
-                border: 1px;
-            }
-
-            p.description {
-                max-width: 600px;
-                display: inline-block;
-                font-size: 20px;
-            }
-
-            div.info {
-                position: relative;
-            }
-
-            img.image {
-                width: 100%;
-                display: block;
-            }
-
-            table.info {position: absolute;
-                bottom: 0;
-                width: 100%;
-                color: white;
-                background-color: #6C8290C0;
-                font-size: 20px;
-            }
-            
-            table.info th {
-                text-align: center;
-                font-size: 16px;
-                padding-top: 10px;
-                padding-bottom: 5px;
-            }
-
-            table.info td {
-                text-align: center;
-                font-size: 14px;
-                padding-top: 5px;
-                padding-bottom: 10px;
-            }
-
-
-
-        </style>
+        <link rel="stylesheet" href="recette.css">
     </head>
     <body>
         <div class="categorie center">
@@ -108,32 +18,35 @@
                 <p class="description center">"Voici une recette facile à préparer. Vous pourrez ensuite la savourer agréablement avec votre famille"</p>
             </div>
             <div class="info">
-                <img class="image" src="gateau.jpg">
+                <img class="info" src="https://jonathanroux.com/gateau.jpg">
 
                 <table class="info">
                     <tr><th>Difficulté</th><th>Préparation</th><th>Cuisson</th><th>Temps total</th></tr>
                     <tr><td>Facile</td><td>10 min</td><td>25 min</td><td>35 min</td></tr>
                 </table>
             </div>
-            <h2>Ingrédients</h2>
-            <ul>
-                <li>Pâte brisée : 1</li>
-                <li>Lardons : 200 g</li>
-                <li>Oeufs : 4</li>
-                <li>Crème fraîche : 20 cl</li>
-                <li>Lait : 20 cl</li>
-            </ul>
-
-            <h2>Préparation</h2>
-            <ol>
-                <li>Casser les oeufs</li>
-                <li>Faire revenir les lardons</li>
-                <li>Mélanger les oeufs, le lait et la crème fraîche</li>
-                <li>Etaler la pâte dans un plat à quiche</li>
-                <li>Disperser les lardons sur la pâte</li>
-                <li>Verser le mélange sur les lardons</li>
-                <li>Mettre au four 40 minutes à 180 degrés</li>
-            </ol>
+            <div class="colonne colonne1">
+                <h2>Ingrédients</h2>
+                <ul>
+                    <li>Pâte brisée : 1</li>
+                    <li>Lardons : 200 g</li>
+                    <li>Oeufs : 4</li>
+                    <li>Crème fraîche : 20 cl</li>
+                    <li>Lait : 20 cl</li>
+                </ul>
+            </div>
+            <div class="colonne colonne2">
+                <h2>Préparation</h2>
+                <ol>
+                    <li>Casser les oeufs</li>
+                    <li>Faire revenir les lardons</li>
+                    <li>Mélanger les oeufs, le lait et la crème fraîche</li>
+                    <li>Etaler la pâte dans un plat à quiche</li>
+                    <li>Disperser les lardons sur la pâte</li>
+                    <li>Verser le mélange sur les lardons</li>
+                    <li>Mettre au four 40 minutes à 180 degrés</li>
+                </ol>
+            </div>
         </div>
     </body>
 </html>
